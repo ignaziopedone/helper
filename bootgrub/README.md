@@ -1,4 +1,4 @@
 # Boot from grub command line
 
 
-[link](../README.md)
+[link](./README.md)
