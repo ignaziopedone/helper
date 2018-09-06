@@ -30,7 +30,7 @@ Now check the correctness:
 grub> cat (hd0,1)/etc/issue
 ```
 output:
-
+```
 Ubuntu 14.04 LTS \n \l
 
 ```
