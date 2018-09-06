@@ -14,7 +14,9 @@ after that, you have to check for the partition in which you have installed the 
 ```bash
 grub> ls (hd0,1)/
 
+```
 output:
+```
 lost+found/ bin/ boot/ cdrom/ dev/ etc/ home/  lib/
 lib64/ media/ mnt/ opt/ proc/ root/ run/ sbin/ 
 srv/ sys/ tmp/ usr/ var/ vmlinuz vmlinuz.old 
@@ -26,8 +28,9 @@ Now check the correctness:
 
 ```bash
 grub> cat (hd0,1)/etc/issue
-
+```
 output:
+
 Ubuntu 14.04 LTS \n \l
 
 ```
