@@ -1,0 +1,8 @@
+---
+- hosts: ramses
+  become: true
+  become_user: root
+  remote_user: ignazio
+  tasks:
+  - name: Install packages
+    apt: name={{ packets }} state=installed
